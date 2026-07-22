@@ -25,11 +25,9 @@ jobs:
 
       - run: npm ci
 
-      - run: npm run build
-
       - name: Deploy to Vercel
         run: |
-          npx vercel deploy --prod --prebuilt --token=${{ secrets.VERCEL_TOKEN }} \
+          npx vercel deploy --prod --token=${{ secrets.VERCEL_TOKEN }} \
             --archive=tgz
         env:
           VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}

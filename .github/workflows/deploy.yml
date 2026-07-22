@@ -10,6 +10,7 @@ on:
       - 'package.json'
       - 'pnpm-lock.yaml'
       - 'vercel.json'
+      - '.github/workflows/**'
   workflow_dispatch:
 
 jobs:

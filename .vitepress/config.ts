@@ -85,9 +85,17 @@ export default defineConfig({
           items: [
             { text: 'Overview', link: '/adapters/' },
             { text: 'Express', link: '/adapters/express' },
+            { text: 'Fastify', link: '/adapters/fastify' },
             { text: 'Hono', link: '/adapters/hono' },
+            { text: 'Koa', link: '/adapters/koa' },
             { text: 'Next.js', link: '/adapters/nextjs' },
             { text: 'React', link: '/adapters/react' },
+          ],
+        },
+        {
+          text: 'ORM Adapters',
+          items: [
+            { text: 'Drizzle', link: '/adapters/drizzle' },
           ],
         },
       ],

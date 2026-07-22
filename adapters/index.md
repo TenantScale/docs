@@ -7,9 +7,17 @@ TenantScale provides framework-specific adapters that wrap the core SDK into idi
 | Package | Framework | Status | NPM |
 |---------|-----------|--------|-----|
 | `@tenantscale/express` | Express.js | ✅ Stable | [![npm](https://img.shields.io/npm/v/@tenantscale/express)](https://www.npmjs.com/package/@tenantscale/express) |
+| `@tenantscale/fastify` | Fastify | ✅ Stable | [![npm](https://img.shields.io/npm/v/@tenantscale/fastify)](https://www.npmjs.com/package/@tenantscale/fastify) |
 | `@tenantscale/hono` | Hono | ✅ Stable | [![npm](https://img.shields.io/npm/v/@tenantscale/hono)](https://www.npmjs.com/package/@tenantscale/hono) |
+| `@tenantscale/koa` | Koa | ✅ Stable | [![npm](https://img.shields.io/npm/v/@tenantscale/koa)](https://www.npmjs.com/package/@tenantscale/koa) |
 | `@tenantscale/next` | Next.js (App Router) | ✅ Stable | [![npm](https://img.shields.io/npm/v/@tenantscale/next)](https://www.npmjs.com/package/@tenantscale/next) |
 | `@tenantscale/react` | React / Next.js (Client) | ✅ Stable | [![npm](https://img.shields.io/npm/v/@tenantscale/react)](https://www.npmjs.com/package/@tenantscale/react) |
+
+### ORM Adapters
+
+| Package | Status |
+|---------|--------|
+| `@tenantscale/drizzle` | ✅ Stable |
 
 ## Feature Comparison
 
@@ -65,9 +73,12 @@ All adapters share the same core SDK under the hood, so behavior is consistent a
 | Adapter | Documentation | Source |
 |---------|--------------|--------|
 | Express | [Express Adapter →](/adapters/express) | [GitHub](https://github.com/TenantScale/sdk/tree/main/packages/express) |
+| Fastify | [Fastify Adapter →](/adapters/fastify) | [GitHub](https://github.com/TenantScale/sdk/tree/main/packages/fastify) |
 | Hono | [Hono Adapter →](/adapters/hono) | [GitHub](https://github.com/TenantScale/sdk/tree/main/packages/hono) |
+| Koa | [Koa Adapter →](/adapters/koa) | [GitHub](https://github.com/TenantScale/sdk/tree/main/packages/koa) |
 | Next.js | [Next.js Adapter →](/adapters/nextjs) | [GitHub](https://github.com/TenantScale/sdk/tree/main/packages/next) |
 | React | [React Adapter →](/adapters/react) | [GitHub](https://github.com/TenantScale/sdk/tree/main/packages/react) |
+| Drizzle | [Drizzle Adapter →](/adapters/drizzle) | [GitHub](https://github.com/TenantScale/sdk/tree/main/packages/drizzle) |
 
 ## Installation (Quick Reference)
 
@@ -75,14 +86,23 @@ All adapters share the same core SDK under the hood, so behavior is consistent a
 # Express
 npm install @tenantscale/express
 
+# Fastify
+npm install @tenantscale/fastify
+
 # Hono
 npm install @tenantscale/hono
+
+# Koa
+npm install @tenantscale/koa
 
 # Next.js
 npm install @tenantscale/next
 
 # React
 npm install @tenantscale/react
+
+# ORM adapters
+npm install @tenantscale/drizzle
 ```
 
 All adapters require the core SDK (`@tenantscale/sdk`) as a peer dependency. If it is not already installed, npm will install it automatically.

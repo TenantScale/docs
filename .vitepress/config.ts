@@ -26,6 +26,7 @@ export default defineConfig({
       { text: 'API', link: '/api/', activeMatch: '/api/' },
       { text: 'CLI', link: '/cli/', activeMatch: '/cli/' },
       { text: 'Self-Hosting', link: '/self-hosting/', activeMatch: '/self-hosting/' },
+      { text: 'Home', link: 'https://tenantscale.com' },
     ],
 
     sidebar: {

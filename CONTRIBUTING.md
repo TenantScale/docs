@@ -31,7 +31,7 @@ This project and everyone participating in it is governed by the [TenantScale Co
 
 ### Prerequisites
 
-- **Node.js** >= 20
+- **Node.js** >= 22 (Node 24 recommended)
 - **pnpm** >= 9 (install via `npm install -g pnpm` or `corepack enable && corepack prepare pnpm@latest --activate`)
 
 ### Setup

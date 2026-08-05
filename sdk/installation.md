@@ -64,7 +64,7 @@ The SDK will warn at startup if required peer dependencies are missing.
 
 ## Prerequisites
 
-- **Node.js 20+** (18.x may work but is not officially supported)
+- **Node.js 22+** (Node 24 recommended) — Node 20 and older are EOL and not supported
 - **A Supabase project** — all data (tenants, plans, API keys, audit logs) is stored in Supabase
 - **(Optional) A Stripe account** — for subscription billing
 

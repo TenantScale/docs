@@ -7,7 +7,7 @@ Deploy the TenantScale API to Vercel for a production-ready, serverless deployme
 - A [Vercel account](https://vercel.com)
 - A [Supabase project](/self-hosting/supabase) (with migrations run and plans seeded)
 - A [Stripe account](/self-hosting/stripe) (for billing features)
-- Node.js 20+ installed locally
+- Node.js 22+ installed locally (Node 24 recommended)
 - Vercel CLI installed: `npm install -g vercel`
 
 ## 1. Clone the Repository

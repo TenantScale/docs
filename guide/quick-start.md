@@ -4,7 +4,7 @@ Get multi-tenant support running in your app in under 5 minutes.
 
 ## Prerequisites
 
-- Node.js 20+
+- Node.js 22+ (Node 24 recommended)
 - A Supabase project ([free tier](https://supabase.com) works great)
 - Your web framework of choice
 

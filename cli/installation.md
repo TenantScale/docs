@@ -6,7 +6,7 @@ Install the TenantScale CLI to manage tenants, run migrations, and sync plans fr
 
 | Requirement | Version | Notes |
 |-------------|---------|-------|
-| Node.js | 18.x or later | 20.x LTS recommended |
+| Node.js | 22 or later | 24 LTS recommended |
 | npm | 9.x or later | Ships with Node.js |
 | Supabase project | — | Required for database operations |
 | PostgreSQL | 14.x+ | Managed by Supabase |
@@ -23,7 +23,7 @@ After installation, verify it works:
 
 ```bash
 tenantscale --version
-# → @tenantscale/cli/1.0.0 darwin-arm64 node-v20.11.0
+# → @tenantscale/cli/1.0.0 darwin-arm64 node-v24.3.0
 ```
 
 ### macOS / Linux
@@ -163,7 +163,7 @@ migrate:
 |---------|----------|
 | `command not found` | Add npm global bin to PATH, or use `npx @tenantscale/cli` |
 | `EACCES` permissions | Use `sudo npm install -g` on macOS/Linux, or configure npm prefix |
-| `ENOENT` errors | Ensure Node.js 18+ is installed (`node --version`) |
+| `ENOENT` errors | Ensure Node.js 22+ is installed (`node --version`) |
 | Slow `npx` startup | Install globally — `npx` downloads on first use |
 | Windows Git Bash issues | Use `winpty tenantscale` if interactive prompts behave oddly |
 

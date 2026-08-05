@@ -46,7 +46,7 @@ A self-hosted TenantScale deployment consists of:
 
 | Requirement | Minimum | Recommended |
 |-------------|---------|-------------|
-| Node.js | 20.x | 22.x LTS |
+| Node.js | 22.x | 24.x LTS |
 | npm | 9.x | 10.x |
 | Supabase Project | Free tier | Pro tier ($25/mo) |
 | PostgreSQL | 14.x | 15.x |

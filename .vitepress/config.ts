@@ -97,6 +97,13 @@ export default defineConfig({
           text: 'ORM Adapters',
           items: [
             { text: 'Drizzle', link: '/adapters/drizzle' },
+            { text: 'Prisma', link: '/adapters/prisma' },
+          ],
+        },
+        {
+          text: 'AI Tooling',
+          items: [
+            { text: 'MCP Server', link: '/adapters/mcp' },
           ],
         },
       ],
@@ -132,6 +139,7 @@ export default defineConfig({
             { text: 'Installation', link: '/cli/installation' },
             { text: 'Commands', link: '/cli/commands' },
             { text: 'Configuration', link: '/cli/configuration' },
+            { text: 'Scaffold a Project', link: '/cli/create-app' },
           ],
         },
       ],

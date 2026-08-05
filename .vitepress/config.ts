@@ -26,6 +26,7 @@ export default defineConfig({
       { text: 'API', link: '/api/', activeMatch: '/api/' },
       { text: 'CLI', link: '/cli/', activeMatch: '/cli/' },
       { text: 'Self-Hosting', link: '/self-hosting/', activeMatch: '/self-hosting/' },
+      { text: 'Legal', link: '/legal/terms', activeMatch: '/legal/' },
       { text: 'Home', link: 'https://tenantscale.com' },
     ],
 
@@ -153,7 +154,18 @@ export default defineConfig({
             { text: 'Environment Variables', link: '/self-hosting/env-vars' },
             { text: 'Deploy to Vercel', link: '/self-hosting/vercel' },
             { text: 'Stripe Setup', link: '/self-hosting/stripe' },
+            { text: 'Custom Domains', link: '/self-hosting/domains' },
             { text: 'Production Checklist', link: '/self-hosting/production' },
+          ],
+        },
+      ],
+
+      '/legal/': [
+        {
+          text: 'Legal',
+          items: [
+            { text: 'Terms of Service', link: '/legal/terms' },
+            { text: 'Privacy Policy', link: '/legal/privacy' },
           ],
         },
       ],
@@ -171,7 +183,7 @@ export default defineConfig({
 
     footer: {
       message: 'Released under the MIT License (SDK) and BSL 1.1 (API).',
-      copyright: 'Copyright © 2025-present TenantScale',
+      copyright: 'Copyright © 2026 TenantScale. <a href="/legal/terms">Terms</a> · <a href="/legal/privacy">Privacy</a>',
     },
 
     search: {

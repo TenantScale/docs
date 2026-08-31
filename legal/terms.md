@@ -150,7 +150,7 @@ For questions about these Terms:
 
 - **Email**: legal@tenantscale.com
 - **Security**: security@tenantscale.com
-- **Discord**: [TenantScale Community](https://discord.gg/tenantscale)
+- **Discord**: [TenantScale Community](https://discord.gg/rf2p46wh7u)
 - **Mail**: TenantScale, c/o ThatDevMat
 
 ## 16. Open Source Notice

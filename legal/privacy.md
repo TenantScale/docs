@@ -159,7 +159,7 @@ We will notify you of material changes via:
 - **Privacy**: privacy@tenantscale.com
 - **Security**: security@tenantscale.com
 - **Legal**: legal@tenantscale.com
-- **Discord**: [TenantScale Community](https://discord.gg/tenantscale)
+- **Discord**: [TenantScale Community](https://discord.gg/rf2p46wh7u)
 
 For GDPR Article 27 representation, or CCPA requests, contact privacy@tenantscale.com.
 

@@ -399,7 +399,7 @@ This docs site is part of the TenantScale project. For broader contribution guid
 
 Key things from the SDK guide that also apply here:
 - **Good first issues** are tagged with `good first issue` — start there
-- **Need help?** Join the [Discord server](https://discord.gg/tenantscale) — best for quick questions
+- **Need help?** Join the [Discord server](https://discord.gg/rf2p46wh7u) — best for quick questions
 - **All contributors are recognized** — you'll be added to the README after your PR merges
 
 ---

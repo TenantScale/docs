@@ -123,6 +123,7 @@ export default defineConfig({
             { text: 'Invoices', link: '/api/invoices' },
             { text: 'Analytics', link: '/api/analytics' },
             { text: 'Events & Audit', link: '/api/events' },
+            { text: 'Audit Logs', link: '/api/audit' },
             { text: 'Plans', link: '/api/plans' },
             { text: 'Alerts', link: '/api/alerts' },
             { text: 'Admin', link: '/api/admin' },

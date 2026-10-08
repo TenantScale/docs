@@ -8,7 +8,7 @@
 npm install @tenantscale/next
 ```
 
-**Peer dependencies:** Requires `next@^14.0.0` and `@tenantscale/sdk@^1.0.0`.
+**Peer dependencies:** Requires `next@^14.0.0` and `@tenantscale/sdk@^0.4.0`.
 
 ## Adapter Architecture
 

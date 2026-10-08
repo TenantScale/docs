@@ -10,7 +10,7 @@ npm install @tenantscale/drizzle
 pnpm add @tenantscale/drizzle
 ```
 
-**Peer dependencies:** Requires `drizzle-orm` and `@tenantscale/sdk@^1.0.0`.
+**Peer dependencies:** Requires `drizzle-orm` and `@tenantscale/sdk@^0.4.0`.
 
 ## Quick Start
 

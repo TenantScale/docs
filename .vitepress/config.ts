@@ -82,18 +82,19 @@ export default defineConfig({
       ],
 
       '/adapters/': [
-        {
-          text: 'Framework Adapters',
-          items: [
-            { text: 'Overview', link: '/adapters/' },
-            { text: 'Express', link: '/adapters/express' },
-            { text: 'Fastify', link: '/adapters/fastify' },
-            { text: 'Hono', link: '/adapters/hono' },
-            { text: 'Koa', link: '/adapters/koa' },
-            { text: 'Next.js', link: '/adapters/nextjs' },
-            { text: 'React', link: '/adapters/react' },
-          ],
-        },
+              {
+                text: 'Framework Adapters',
+                items: [
+                  { text: 'Overview', link: '/adapters/' },
+                  { text: 'Migration Guide', link: '/adapters/migration' },
+                  { text: 'Express', link: '/adapters/express' },
+                  { text: 'Fastify', link: '/adapters/fastify' },
+                  { text: 'Hono', link: '/adapters/hono' },
+                  { text: 'Koa', link: '/adapters/koa' },
+                  { text: 'Next.js', link: '/adapters/nextjs' },
+                  { text: 'React', link: '/adapters/react' },
+                ],
+              },
         {
           text: 'ORM Adapters',
           items: [

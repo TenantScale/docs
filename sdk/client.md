@@ -254,7 +254,7 @@ Each subsystem exposes methods. The full method reference is available on each s
 
 ```typescript
 console.log(ts.version)
-// '2.0.0'
+// '0.4.1'
 ```
 
 ## Error Handling

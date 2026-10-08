@@ -235,7 +235,7 @@ const ts = new TenantScale({
 })
 
 console.log('TenantScale SDK initialized:', ts.version)
-// Output: TenantScale SDK initialized: 2.0.0
+// Output: TenantScale SDK initialized: 0.4.1
 ```
 
 ## Troubleshooting

@@ -8,7 +8,7 @@
 npm install @tenantscale/express
 ```
 
-**Peer dependencies:** Requires `express@^4.18.0` and `@tenantscale/sdk@^1.0.0`.
+**Peer dependencies:** Requires `express@^4.18.0` and `@tenantscale/sdk@^0.4.0`.
 
 ## Quick Start
 

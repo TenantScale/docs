@@ -126,7 +126,7 @@ npx @tenantscale/cli --version
 tenantscale --version
 ```
 
-Current stable version: `1.0.0`
+Current stable version: `0.1.2`
 
 ---
 

@@ -8,7 +8,7 @@
 npm install @tenantscale/hono
 ```
 
-**Peer dependencies:** Requires `hono@^4.0.0` and `@tenantscale/sdk@^1.0.0`.
+**Peer dependencies:** Requires `hono@^4.0.0` and `@tenantscale/sdk@^0.4.0`.
 
 ## Quick Start
 

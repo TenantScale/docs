@@ -79,6 +79,7 @@ All adapters share the same core SDK under the hood, so behavior is consistent a
 | Next.js | [Next.js Adapter →](/adapters/nextjs) | [GitHub](https://github.com/TenantScale/sdk/tree/main/packages/next) |
 | React | [React Adapter →](/adapters/react) | [GitHub](https://github.com/TenantScale/sdk/tree/main/packages/react) |
 | Drizzle | [Drizzle Adapter →](/adapters/drizzle) | [GitHub](https://github.com/TenantScale/sdk/tree/main/packages/drizzle) |
+| **Migration** | [Migration Guide →](/adapters/migration) | — |
 
 ## Installation (Quick Reference)
 

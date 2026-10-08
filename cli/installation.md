@@ -23,7 +23,7 @@ After installation, verify it works:
 
 ```bash
 tenantscale --version
-# → @tenantscale/cli/1.0.0 darwin-arm64 node-v24.3.0
+# → @tenantscale/cli/0.1.2 darwin-arm64 node-v24.3.0
 ```
 
 ### macOS / Linux
@@ -64,7 +64,7 @@ Run the following commands to verify the CLI is working:
 ```bash
 # Check version
 tenantscale --version
-# → @tenantscale/cli/1.0.0
+# → @tenantscale/cli/0.1.2
 
 # Check help
 tenantscale --help
